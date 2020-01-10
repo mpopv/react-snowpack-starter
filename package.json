@@ -1,0 +1,27 @@
+{
+  "name": "react-snowpack-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && /bin/cp -rf src/index.html dist/ && babel src/ --out-dir dist && npx snowpack --include 'dist/**/*.js' --dest 'dist/web_modules/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpopv/react-snowpack-starter.git"
+  },
+  "keywords": [],
+  "author": "Matt Popovich <mattpopovich@outlook.com> (http://mattpopovich.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpopv/react-snowpack-starter/issues"
+  },
+  "homepage": "https://github.com/mpopv/react-snowpack-starter#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "react": "npm:@reactesm/react",
+    "react-dom": "npm:@reactesm/react-dom"
+  }
+}
