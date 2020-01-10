@@ -7,6 +7,6 @@ An opinionated Hello World starter project with React, Babel, Yarn, and Snowpack
 ```sh
 yarn install
 yarn build
-cd dist && yarn serve 
+cd dist && npx serve 
 # Project will be served at localhost:5000
 ```
