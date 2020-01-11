@@ -5,8 +5,7 @@ A barebones starter project with React, Babel, Yarn, and Snowpack to bundle ES m
 ### Usage
 
 ```sh
-yarn
-yarn build
-cd dist && npx serve 
-# Project will be served at localhost:5000
+yarn # Install dependencies
+yarn build # Transpile source code and copy code and web modules to /dist
+cd dist && npx serve # Project will be served at localhost:5000
 ```
